@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE / OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local-only docs (must NOT be pushed/published)
+universal_rule_engine_documentation.md
+
+# Local compile cache (used by PYTHONPYCACHEPREFIX in CI/sandbox)
+.pycacheprefix/
+
+
