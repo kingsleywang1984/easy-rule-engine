@@ -36,4 +36,7 @@ universal_rule_engine_documentation.md
 # Local compile cache (used by PYTHONPYCACHEPREFIX in CI/sandbox)
 .pycacheprefix/
 
+# Local release helper script (contains workflow; token is passed at runtime)
+scripts/publish_and_verify.sh
+
 
